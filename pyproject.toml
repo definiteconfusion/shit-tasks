@@ -3,11 +3,11 @@ requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name =  "py-project-toml"
+name =  "shit-tasks"
 authors = [
-    {name = "Daniel Ciborowski", email = "dciborow@microsoft.com"},
+    {name = "Jake Rase", email = "djakerase@proton.me"},
 ]
-description = "Sample Python Project for creating a new Python Module"
+description = "Tons of commonly used functions from various libraries simplified and collected."
 readme = "README.md"
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -46,13 +46,8 @@ test = [
     "shellcheck-py==0.9.0.2"
 ]
 
-[project.urls]
-Documentation = "https://github.com/microsoft/python-package-template/tree/main#readme"
-Source = "https://github.com/microsoft/python-package-template"
-Tracker = "https://github.com/microsoft/python-package-template/issues"
-
 [tool.flit.module]
-name = "python_package"
+name = "shit-tasks"
 
 [tool.bandit]
 exclude_dirs = ["build","dist","tests","scripts"]
